@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.449,D:\5sh_XE\DX10.3\SoundControlUDP\FMXWindCon\SoundService.dproj=D:\5sh_XE\DX10.3\Temp\Project1.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.326,D:\5sh_XE\DX10.3\SoundControlUDP\FMXWindCon\FWinDisp.pas=D:\5sh_XE\DX10.3\SoundControlUDP\FMXWindCon\FWinSound.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.609,=D:\5sh_XE\DX10.3\SoundControlUDP\FMXWindCon\MMDevAPI.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.621,D:\5sh_XE\DX10.3\SoundControlUDP\FMXWindCon\AudioService.dproj=D:\5sh_XE\DX10.3\SoundControlUDP\FMXWindCon\SoundService.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.191,=D:\5sh_XE\DX10.3\Temp\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.596,=D:\5sh_XE\DX10.3\SoundControlUDP\FMXWindCon\FWinSound.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.326,D:\5sh_XE\DX10.3\SoundControlUDP\FMXWindCon\FWinDisp.fmx=D:\5sh_XE\DX10.3\SoundControlUDP\FMXWindCon\FWinSound.fmx</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<PRio_MacOSX iOSSimulator="iPhone5"/>
+		<NoProfile Android=""/>
+	</ActiveMobileDevice>
+</BorlandProject>

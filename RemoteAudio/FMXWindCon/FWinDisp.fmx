@@ -1,0 +1,87 @@
+object SMForm: TSMForm
+  Left = 0
+  Top = 0
+  Border.Styling = False
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = Single
+  Caption = 'Audio Control Service'
+  ClientHeight = 330
+  ClientWidth = 320
+  Fill.Color = claDarkslategray
+  Fill.Kind = Solid
+  Padding.Top = 20.000000000000000000
+  Position = MainFormCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object ThisIPText: TText
+    Align = Top
+    AutoSize = True
+    Position.Y = 20.000000000000000000
+    Size.Width = 63.795574188232420000
+    Size.Height = 26.601562500000000000
+    Size.PlatformDefault = False
+    Text = 'This IP'
+    TextSettings.Font.Size = 20.000000000000000000
+    TextSettings.FontColor = claWhite
+    TextSettings.WordWrap = False
+  end
+  object RDAngularGauge1: TRDAngularGauge
+    Align = Client
+    Margins.Top = 10.000000000000000000
+    Margins.Bottom = -30.000000000000000000
+    Size.Width = 320.000000000000000000
+    Size.Height = 231.398437500000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    ValueMax = 100.000000000000000000
+    ValueMin = 0.000000000000000000
+    Value = 50.000000000000000000
+    Thickness = 40.000000000000000000
+    RangeAngle = 210.000000000000000000
+    ColorRange = claGray
+    ColorValue = claGreenyellow
+    ColorNeedle = claWhite
+    ColorBackground = claDarkslategray
+    TextFont.Size = 30.000000000000000000
+    TextVisible = True
+    NeedleVisible = True
+    TypeInfo = False
+  end
+  object RDHorzSlideBar1: TRDHorzSlideBar
+    Align = Top
+    HitTest = True
+    Margins.Left = 10.000000000000000000
+    Margins.Top = 14.000000000000000000
+    Margins.Right = 10.000000000000000000
+    Margins.Bottom = 20.000000000000000000
+    Position.X = 10.000000000000000000
+    Position.Y = 60.601562500000000000
+    Size.Width = 300.000000000000000000
+    Size.Height = 38.000000000000000000
+    Size.PlatformDefault = False
+    TouchTargetExpansion.Left = 16.000000000000000000
+    TouchTargetExpansion.Top = 8.000000000000000000
+    TouchTargetExpansion.Right = 16.000000000000000000
+    TouchTargetExpansion.Bottom = 8.000000000000000000
+    TabOrder = 3
+    OnChange = RDHorzSlideBar1Change
+    ColorRange = xFF606060
+    ColorValue = claGreenyellow
+    Frequency = 1
+    ValueMax = 20.000000000000000000
+    ValueMin = 0.000000000000000000
+    Value = 10.000000000000000000
+    TypeInfo = False
+  end
+  object IdUDPServer1: TIdUDPServer
+    Active = True
+    Bindings = <>
+    DefaultPort = 8888
+    OnUDPRead = IdUDPServer1UDPRead
+    Left = 40
+    Top = 24
+  end
+end

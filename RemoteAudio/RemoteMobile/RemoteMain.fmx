@@ -1,0 +1,437 @@
+object MForm: TMForm
+  Left = 0
+  Top = 0
+  Caption = 'Remote Audio'
+  ClientHeight = 684
+  ClientWidth = 451
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object RDToggleButtons1: TRDToggleButtons
+    Align = Bottom
+    HitTest = True
+    Position.Y = 624.000000000000000000
+    Size.Width = 451.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    ButtonNo = 2
+    ButtonText.Strings = (
+      'Connections'
+      'Volume')
+    TextFont.Size = 16.000000000000000000
+    ColorButton = xFF5262B0
+    ColorButtonText = claWhite
+    ColorTopLineOn = claAqua
+    ColorTopLineOff = claSilver
+    ClickIndex = 0
+    OnButtonSetClick = RDToggleButtons1ButtonSetClick
+    TypeInfo = False
+  end
+  object MTabControl: TTabControl
+    Align = Client
+    Size.Width = 451.000000000000000000
+    Size.Height = 544.000000000000000000
+    Size.PlatformDefault = False
+    TabIndex = 0
+    TabOrder = 6
+    TabPosition = PlatformDefault
+    Sizes = (
+      451s
+      518s
+      451s
+      518s)
+    object TabItem1: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 69.000000000000000000
+      Size.Height = 26.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'TabItem1'
+      ExplicitSize.cx = 69.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      object LBaseRect: TRectangle
+        Align = Client
+        Fill.Kind = Gradient
+        Fill.Gradient.Points = <
+          item
+            Color = xFF495CB8
+            Offset = 0.000000000000000000
+          end
+          item
+            Color = xFF45AAF2
+            Offset = 0.990683257579803500
+          end>
+        Fill.Gradient.StartPosition.X = 0.500000000000000000
+        Fill.Gradient.StopPosition.X = 0.499999970197677600
+        HitTest = False
+        Size.Width = 451.000000000000000000
+        Size.Height = 518.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        object SetListBox: TListBox
+          Align = Client
+          Size.Width = 451.000000000000000000
+          Size.Height = 518.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'transparentlistboxstyle'
+          TabOrder = 0
+          DisableFocusEffect = True
+          DefaultItemStyles.ItemStyle = ''
+          DefaultItemStyles.GroupHeaderStyle = ''
+          DefaultItemStyles.GroupFooterStyle = ''
+          Viewport.Width = 451.000000000000000000
+          Viewport.Height = 518.000000000000000000
+          object ListBoxItem1: TListBoxItem
+            TextSettings.FontColor = claWhite
+            StyledSettings = [Family, Size, Style, Other]
+            Size.Width = 451.000000000000000000
+            Size.Height = 74.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 0
+            Text = 'ListBoxItem1'
+            object RDColorCheckBox1: TRDColorCheckBox
+              Align = Left
+              HitTest = True
+              Margins.Left = 20.000000000000000000
+              Position.X = 20.000000000000000000
+              Size.Width = 40.000000000000000000
+              Size.Height = 74.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 1
+              ThicknessCheck = 4.000000000000000000
+              ThicknessBorder = 2.000000000000000000
+              BorderVisible = True
+              ColorCheck = claBlue
+              ColorBackground = claDodgerblue
+              IsChecked = True
+              TypeInfo = False
+            end
+            object SpeedButton1: TSpeedButton
+              Position.X = 240.000000000000000000
+              Position.Y = 24.000000000000000000
+              StyleLookup = 'cleareditbutton'
+              Text = 'SpeedButton1'
+            end
+          end
+        end
+      end
+    end
+    object TabItem2: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 69.000000000000000000
+      Size.Height = 26.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'TabItem2'
+      ExplicitSize.cx = 69.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      object Rectangle2: TRectangle
+        Align = Client
+        Fill.Kind = Gradient
+        Fill.Gradient.Points = <
+          item
+            Color = xFF495CB8
+            Offset = 0.000000000000000000
+          end
+          item
+            Color = xFF9EAED4
+            Offset = 0.990683257579803500
+          end>
+        Fill.Gradient.StartPosition.X = 0.500000000000000000
+        Fill.Gradient.StopPosition.X = 0.499999970197677600
+        HitTest = False
+        Padding.Bottom = 40.000000000000000000
+        Size.Width = 451.000000000000000000
+        Size.Height = 398.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        object RDRotaryKnob1: TRDRotaryKnob
+          Align = Center
+          Size.Width = 280.000000000000000000
+          Size.Height = 280.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          OnDialChange = RDRotaryKnob1DialChange
+          ColorDivision = claAqua
+          ColorDivisionBase = xFF3D3D3D
+          ColorBackground = xFF4F617A
+          ColorRound = claWhite
+          Division = 20
+          Value = 49.999996185302730000
+          TypeInfo = False
+        end
+      end
+      object Rectangle3: TRectangle
+        Align = Top
+        Fill.Color = xFF495CB8
+        Padding.Top = 10.000000000000000000
+        Padding.Right = 34.000000000000000000
+        Size.Width = 451.000000000000000000
+        Size.Height = 120.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        object Layout1: TLayout
+          Align = Center
+          Padding.Right = 12.000000000000000000
+          Size.Width = 150.000000000000000000
+          Size.Height = 60.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          object RDDigitalNumber1: TRDDigitalNumber
+            Align = Right
+            Margins.Right = -6.000000000000000000
+            Position.X = 52.000000000000000000
+            Size.Width = 46.000000000000000000
+            Size.Height = 60.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 0
+            ColorBackground = xFF495CB8
+            ColorNumber = claSilver
+            BackgroundOpacity = 1.000000000000000000
+            Number = '5'
+            TypeInfo = False
+          end
+          object RDDigitalNumber2: TRDDigitalNumber
+            Align = Right
+            Position.X = 92.000000000000000000
+            Size.Width = 46.000000000000000000
+            Size.Height = 60.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 2
+            ColorBackground = xFF495CB8
+            ColorNumber = claSilver
+            BackgroundOpacity = 1.000000000000000000
+            Number = '0'
+            TypeInfo = False
+          end
+          object RDDigitalNumber3: TRDDigitalNumber
+            Align = Right
+            Margins.Right = -6.000000000000000000
+            Position.X = 12.000000000000000000
+            Size.Width = 46.000000000000000000
+            Size.Height = 60.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 1
+            ColorBackground = xFF495CB8
+            ColorNumber = claSilver
+            BackgroundOpacity = 1.000000000000000000
+            Number = '1'
+            TypeInfo = False
+          end
+        end
+      end
+    end
+  end
+  object Rectangle1: TRectangle
+    Align = Top
+    Fill.Color = xFF495CB8
+    Padding.Left = 10.000000000000000000
+    Padding.Top = 2.000000000000000000
+    Padding.Right = 10.000000000000000000
+    Padding.Bottom = 2.000000000000000000
+    Size.Width = 451.000000000000000000
+    Size.Height = 80.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    object RDIconFlicker1: TRDIconFlicker
+      Align = Right
+      HitTest = True
+      Padding.Left = 2.000000000000000000
+      Padding.Top = 2.000000000000000000
+      Padding.Right = 2.000000000000000000
+      Padding.Bottom = 2.000000000000000000
+      Position.X = 397.000000000000000000
+      Position.Y = 2.000000000000000000
+      Size.Width = 44.000000000000000000
+      Size.Height = 76.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      OnFlickerFinish = RDIconFlicker1FlickerFinish
+      BitmapIcon.PNG = {
+        89504E470D0A1A0A0000000D49484452000000500000005008060000008E11F2
+        AD000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+        0A9E49444154785EED5C5B6C14D7199E3933B3B33BDEB5C15E3036100C062750
+        021402844BDA542A4D9584548D9A44AA442523E5217DA9DAB4EA25EA8DF0D297
+        BC557DE9435BB595DAAAEA4B9AA4AAD4268D1A1229240D2134891D01068CF185
+        DDF5DEE7CC9CD3FFDBDDA18B59F0CCAEB1BD663FEBD39C73667699F3EDFF9FFF
+        3F67CEA0B4D0420B2DB4D0420B2D3427D4CAB15E98C44E6294182636FA7D7301
+        499C228E966AB719F5769811BBADF55B77B6ADD9F4180B9BDB5C2DB489F152FB
+        8282190ACF5F3EFBDDD47BAFBF42D5B172EBED433D02B613BBBAF63F72D48875
+        3EED166CC3C94FBB2E4F0B973BA27CC9C2424A2DCB8AD3DFCF0CBFFF3A55AF94
+        5B6F0FB4CAD12F4CC3B236C71F78FC0566C4BE6CA712B290BECC5D5E105208B8
+        CEA280AACA9050ADFD21337C8AA7A752D4942B9F997B04157055D7FD879F55F5
+        C8A1C2D551DB29A6DC4AFBA283CA449859EDBB9910EF38B9E9696A2A94CFCC2D
+        828C59E1E8C0F6DDB22DFA384F4F3A2ECF2E0A7705B2A7DFFC2258A95E8394BC
+        97F5AC3FA647DAFBA9DA516E9D5B0411B033D2BDE161359F50ED6CC229C5BAC5
+        C20ADABA3785679E53051F08F7DF7B9C869E8DB88438A70822608C9991BD4E2E
+        BB68DDF66690D2DD666ED8F12C15E344A3D438470822604865DA2AA758683A01
+        0129C583D12DFBBF45C595C4394BB7827C912A5CC510EEE289B6412155F1446C
+        EB8167A8D8536E691C73F64B340B84748FB6DDB3E7492AF6965B1AC31D276009
+        52FBA6B569E7212AAD2A37D48F4002AA9A4D3317B6085986EFFBD35543D1F41F
+        4637DE7B903ED65DFE747DB8332D90A06A7A9B1BB28E5BAB0776527545B93538
+        EE580101A66A1D6C59FC7838BE66335597975B83E18E1610A094A29775AF7B5E
+        8F750E5035F06C2598804860EC45480F75DE9F6ACB81F0BA2DC7A886443B1068
+        50F58D6DDD879E7A2D73EEC26D99943782ECD01B0FD121495C566AF089B64DFB
+        FF56299650F99ED344DFF3FCA5E4C281C403A27D6BB18A3E138156A8EAB0C091
+        45678140B4EFAE5A62CC8AEAFE64874EC0023F22164B0D3EB064049C0B5404FC
+        98E8BB8F815DB8C618BC64580FEEF834A651B4046C102D011B4430014BD911B2
+        D5A5CAE0685960836809D820020928E1C2EA12FEAB032D0B6C102D011B444001
+        11A9304D5CAA0C8E6002D617E997345A2EDC205A02368840CB592B1F7CF2B5C4
+        E8507D83C57CC00D098D3927A55D78471432FF5585E476F2F22738155AD6D3AF
+        681A534D6BAB1A0AEF7485BE4BD1ECEB0C887FFCEE17E81068396B4908A8ABDA
+        5559C8FFAE7065E41F4A218DA57D8788152A64AE28035869467F43A01E8E2DD3
+        BBD73EA886AD238E74B1CFBB2E01EB88C28B0706630EE3FC37F9910F060BE73F
+        F8138977819AAF5608211344EC5045191BCF416CF91D750AE9E1C2F9337FE423
+        1F0DEAAEFB2B43352078E00E0659FFEF6EEBFBD460217D7551ECCE82D539C9C9
+        E7EC8B432F298E03C132C43C111E022BC3234A104FDAF0CC177B03234458242C
+        0CCC0AC74E39892B6734ABEDB4333D35426DE9CA35BE10D0859F20171E5E7017
+        36843A529CB8F80337358E0E576FDF8D85E36BD647566FDCA746A30F3066C455
+        264B3BB1A4502F0BC1276526F37A6E6CE8ADE2954B43D40CE139117B06B1791E
+        7DC37E6ADF0BD44D272089972A4E9C7FC64D4D9DA72AAC051D6ED797F76CE818
+        F8F4A08CE887B5BC6EB8764EF062CE95C295C54A926CD29FCA3455332DA119F2
+        95D4D0A95F3A89CBC3740A6EAD13A1073CCCB7970513702F09985838010D9539
+        3C39F96D7EE5FC49AA625CCB123B6377EFFD7C7865CF4F159BB563FB71CE4EFA
+        12C034A30585F3E3990FDF7C99AA9788D023D038182C88E8795551B505A36B17
+        7F4FE2BD4B7782C050126FD98ECF1E8974AF7EC1CDA763A9E98B3CC7D3A2D667
+        6BB168E72345573CDFBE65DF51FAAED5C4C041A46912695DCAC9E2D8277FA6A2
+        E7B61DD1CD7B1E0AB5777DC74E4FC9743AC567BEABC23F7AFB50352BCDD78309
+        96E7B9AF5BFDDB1FA15AE0FD824D2320E5797F50F279A421A59766F4E52BFAAD
+        F89A634E2EA56473D95B45CD0962E96DA5E5F15578B7EF46308329BAF63DB36B
+        F516AA2152FB4653084881235F183DFB12151171310677746CBC6F500ABB2D9D
+        49218ADE0A7075B8FC2DC115D6C63AE25FA56257B9C51F9A424012EA84E2E491
+        E7413C41D6B75ED1238FD9E964F97D955B032989AF9985A3298F989D3DD82B58
+        DB526B20B880B8E179A6B46DEC98820810231A5DBB85723CDBC8150A6EADEBAF
+        B1166A5DE75125578E767E8E4AA5A99D1F348505524E8705010888B12EC6ACD8
+        419E4BDF9619916A8476D001EF3FFB4AF182E581071EFD5762626CDEF340393A
+        FC1527938415620CDCB4E2C097FE52488DC70B362F3DA9E61FDF24C29603CE45
+        22C4479A52737C3306EEFB7BA5588AF6F9A193780D02BBB4669DD23585053AC5
+        2C020182051C4D5355D65E745D94ABE145DB6A226A7B9B2591287F48C48243F5
+        35CAF215FF8FCEAAAB629F2174F1655C4D21600510E29A6835DE4FF6A26D35D1
+        566D4528CFBCEE66F0A54D5308A89B6D5849F1A659AE9402AE3C137D446C14AF
+        265E5FF02C102EBC95780FB1FA9AEB20358929A2F7995911680C8CD318985A80
+        3150494D7C83A670F83F10D0B9BECEFB1FFD792635BE5B56BDB7D751E5861E26
+        FFFDE267E870AA5C2BDF7FA57C03BC7E69AE7BB2F0C9BB7829F12C71D6BE3685
+        05AAA1C87A3A4020FCE0D34E3E7D42D1683E5B050830939553D7F5B1D67560E5
+        B422B9FD1F3AF83692E6105037B7D1C173E3546EE4CCAB11C3F29BC66099CA1F
+        24174E72FC552A217AFB72E3A61090E9C63E9A7920B9C50ABAEB2426CEA9BAFA
+        D7D2C9D9E1BB8F1A972FBBD313586744DA333348D544100169ECD62995C0F7CE
+        2F1D554642BDEB1EA68AF722CC54E6ECE95F9B66983A5AFB3365D642ADEBA4A2
+        3B22CB13977E4B152F65F265E14104E4943B94F2A68580665A4FE991D85D54C4
+        F27BDE991C1B568A99638A9CF5FFAA41A4C5107073D077F062F2676E6A0A3962
+        75CE392B823C5432CD9EB5030EE7772B0BF0D2BA50544BB362DC4D8EBF4F55AC
+        0966ECA9B1296B655FD615F65EB2851B320AADABF76B9D9B773D6DDD353008A2
+        AD98CDCCB02C47A8F9E22FF8A5210C0988F218FF6E8B805C354C1132DB0FD3EF
+        55699A5F08C6369BA6F59E9349E061102C25634F5EBA10EE889F674CD9231476
+        432A03C1AA59692E81A24B5E64923FE1A3C34891905B423C8C7FBEF3C020023A
+        4E6A326BAD5EDFCBB97D43023A1FC03ABCC2423BC9D4DE16850C96B74A22F2E4
+        C4040D2FFFD44D2B2CA4B65165B30D4D8ED0B8F3A2337EEEC7CED5B133D48019
+        89275EA0458A1BCC7E16588A616D8EF66F3F6EBBF6AE4ADBBC4397EC9C3B3DF6
+        5C71FC0292E471220C018F253BF568BC977574EE6366E420CD99975317310321
+        C84B140513A25838E12627DF70B35397A911CF91219A77C4542FD0F814544000
+        0FA95744FAB71DE1C218647AE921F6BC43975A4275B23FCA9EFB00B30B2C24A0
+        E3B8178B88E5282CCD4358CF1AE19620D6149128631CF2165B71C4B9C0837B10
+        17F6807F3CE724AE0CE9A6F11663BA43FFAAA930E67B11722E2028B5614AE850
+        64CD86A89B4F24856D63B50516046160517049106E5E5DC6398FD5E2D5857A2C
+        10C0E7BCA7F9D83E81C1DB7FC63F7780C560FC821BE387F52C08F707CB0351F6
+        FA89F3A0678DDEF575A35E01017C16165CDAED448480DE0DCF1720022CAE614B
+        AA1773D159EF979EF96BCF176045889C60C316D5420B2DB4D0420BF30445F91F
+        6AE39C15F9D81D260000000049454E44AE426082}
+      Text = 'Text'
+      TextColor = claWhite
+      TextPosition = None
+      Duration = 0.500000000000000000
+      TypeInfo = False
+    end
+    object Text1: TText
+      Align = Left
+      Position.X = 10.000000000000000000
+      Position.Y = 2.000000000000000000
+      Size.Width = 303.000000000000000000
+      Size.Height = 76.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Remote Audio Controller'
+      TextSettings.Font.Size = 18.000000000000000000
+      TextSettings.FontColor = claSilver
+      TextSettings.HorzAlign = Leading
+    end
+  end
+  object RDPopupDialog1: TRDPopupDialog
+    Position.X = 200.000000000000000000
+    Position.Y = 318.000000000000000000
+    Size.Width = 230.000000000000000000
+    Size.Height = 170.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    TabOrder = 9
+    ColorBackground = claWhite
+    ColorMessage = claBlack
+    ColorTextButton = claOrange
+    Shadow = True
+    OnRightTextButtonClick = RDPopupDialog1RightTextButtonClick
+    TypeInfo = False
+  end
+  object RDInputQueryBox1: TRDInputQueryBox
+    Position.X = 200.000000000000000000
+    Position.Y = 134.000000000000000000
+    Size.Width = 230.000000000000000000
+    Size.Height = 170.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    TabOrder = 10
+    ColorBackground = claWhite
+    ColorMessage = claBlack
+    ColorTextButton = claOrange
+    Shadow = True
+    EditTextPrompt = '192.168.0.22'
+    OnApplyButtonClick = RDInputQueryBox1ApplyButtonClick
+    TypeInfo = False
+  end
+  object RDToastMessage1: TRDToastMessage
+    Padding.Left = 1.000000000000000000
+    Padding.Top = 1.000000000000000000
+    Padding.Right = 1.000000000000000000
+    Padding.Bottom = 1.000000000000000000
+    Position.X = 48.000000000000000000
+    Position.Y = 496.000000000000000000
+    Size.Width = 300.000000000000000000
+    Size.Height = 47.960937500000000000
+    Size.PlatformDefault = False
+    Visible = False
+    TabOrder = 14
+    ColorBackground = claSeashell
+    ColorMessage = xFF290F03
+    Shadow = True
+    TypeInfo = False
+  end
+  object IdUDPClient1: TIdUDPClient
+    Active = True
+    Port = 0
+    Left = 184
+    Top = 24
+  end
+  object FDCon: TFDConnection
+    Params.Strings = (
+      'DriverID=SQLite'
+      'Database=D:\5sh_XE\DX10.3\SoundControlUDP\RemoteMobile\iplist.db')
+    LoginPrompt = False
+    BeforeConnect = FDConBeforeConnect
+    Left = 344
+    Top = 72
+  end
+  object FDQueryI: TFDQuery
+    Connection = FDCon
+    Left = 400
+    Top = 72
+  end
+end

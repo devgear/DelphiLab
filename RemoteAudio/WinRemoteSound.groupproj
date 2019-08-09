@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{8B227AE0-8F31-4A65-8EA0-CBDA446A12D0}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="FMXWindCon\AudioService.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="RemoteMobile\RemoteAudio.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="AudioService">
+        <MSBuild Projects="FMXWindCon\AudioService.dproj"/>
+    </Target>
+    <Target Name="AudioService:Clean">
+        <MSBuild Projects="FMXWindCon\AudioService.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="AudioService:Make">
+        <MSBuild Projects="FMXWindCon\AudioService.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="RemoteAudio">
+        <MSBuild Projects="RemoteMobile\RemoteAudio.dproj"/>
+    </Target>
+    <Target Name="RemoteAudio:Clean">
+        <MSBuild Projects="RemoteMobile\RemoteAudio.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="RemoteAudio:Make">
+        <MSBuild Projects="RemoteMobile\RemoteAudio.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="AudioService;RemoteAudio"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="AudioService:Clean;RemoteAudio:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="AudioService:Make;RemoteAudio:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
