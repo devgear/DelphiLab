@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.114,=C:\Users\5sh\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.598,=C:\Users\5sh\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.708,=C:\Users\5sh\Documents\Embarcadero\Studio\Projects\ServerContainerUnit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.120,=C:\Users\5sh\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.315,=C:\Users\5sh\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.921,=C:\Users\5sh\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015-08-04 12:18:13.724,=C:\Users\5sh\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015-08-04 12:27:51.921,D:\_XE_MyProject\5sh_XE8\_Arduino\LCD_ReadWrite\VclMUnit.dfm=C:\Users\5sh\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2015-08-04 12:27:51.921,D:\_XE_MyProject\5sh_XE8\_Arduino\LCD_ReadWrite\VclMUnit.pas=C:\Users\5sh\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015-08-04 12:28:12.071,D:\_XE_MyProject\5sh_XE8\_Arduino\LCD_ReadWrite\LCDReadWrite.dproj=C:\Users\5sh\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
