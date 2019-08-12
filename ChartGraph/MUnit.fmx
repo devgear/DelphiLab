@@ -1,0 +1,232 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 608
+  ClientWidth = 383
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object TabControl1: TTabControl
+    Align = Client
+    Size.Width = 383.000000000000000000
+    Size.Height = 527.000000000000000000
+    Size.PlatformDefault = False
+    TabHeight = 49.000000000000000000
+    TabIndex = 1
+    TabOrder = 0
+    TabPosition = Bottom
+    Sizes = (
+      383s
+      478s
+      383s
+      478s)
+    object TabItem1: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 191.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = '2D Chart'
+      ExplicitSize.cx = 191.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object RectBaseFill: TRectangle
+        Align = Client
+        Fill.Color = claIvory
+        Padding.Left = 10.000000000000000000
+        Padding.Top = 30.000000000000000000
+        Padding.Right = 20.000000000000000000
+        Padding.Bottom = 30.000000000000000000
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Margins.Bottom = 10.000000000000000000
+        Size.Width = 363.000000000000000000
+        Size.Height = 458.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        object LineY: TLine
+          Align = Left
+          LineType = Right
+          Margins.Left = -40.000000000000000000
+          Margins.Bottom = -20.000000000000000000
+          Position.X = -30.000000000000000000
+          Position.Y = 30.000000000000000000
+          Size.Width = 80.000000000000000000
+          Size.Height = 418.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Color = claGray
+          object YMaxText: TText
+            Position.X = 40.000000000000000000
+            Position.Y = -24.000000000000000000
+            Size.Width = 73.000000000000000000
+            Size.Height = 20.000000000000000000
+            Size.PlatformDefault = False
+            Text = 'Max 100'
+            TextSettings.HorzAlign = Trailing
+          end
+          object Text3: TText
+            Anchors = [akLeft, akBottom]
+            Position.X = 29.000000000000000000
+            Position.Y = 377.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 25.000000000000000000
+            Size.PlatformDefault = False
+            Text = 'Min 0'
+            TextSettings.HorzAlign = Trailing
+          end
+        end
+        object LineX: TLine
+          Align = Bottom
+          LineType = Top
+          Margins.Left = -1.000000000000000000
+          Margins.Bottom = -40.000000000000000000
+          Position.X = 9.000000000000000000
+          Position.Y = 428.000000000000000000
+          Size.Width = 334.000000000000000000
+          Size.Height = 40.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Color = claGray
+        end
+      end
+    end
+    object TabItem2: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 192.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = '3D Chart'
+      ExplicitSize.cx = 192.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      inline CallFr3DGraph: TFr3DGraph
+        Align = Client
+        Size.Width = 383.000000000000000000
+        Size.Height = 478.000000000000000000
+        Size.PlatformDefault = False
+        inherited MViewport3D: TViewport3D
+          Size.Width = 383.000000000000000000
+          Size.Height = 478.000000000000000000
+          inherited Grid3D1: TGrid3D
+            Position.X = 0.035794734954833980
+            Position.Y = 0.000000476837158203
+            Quanternion = '(-0.707106947898865,0,0,-0.707106590270996)'
+          end
+        end
+      end
+    end
+  end
+  object Rectangle_Top: TRectangle
+    Align = Top
+    Fill.Kind = Gradient
+    Fill.Gradient.Points = <
+      item
+        Color = xFF082D64
+        Offset = 0.000000000000000000
+      end
+      item
+        Color = xFF978BFE
+        Offset = 1.000000000000000000
+      end>
+    Fill.Gradient.StartPosition.Y = 0.500000000000000000
+    Fill.Gradient.StopPosition.X = 1.000000000000000000
+    Fill.Gradient.StopPosition.Y = 0.500000000000000000
+    Padding.Left = 20.000000000000000000
+    Size.Width = 383.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    object Text1: TText
+      Align = Left
+      Margins.Bottom = 10.000000000000000000
+      Position.X = 20.000000000000000000
+      RotationAngle = -3.000000000000000000
+      Size.Width = 621.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Delphi Chart Solution'
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claWhite
+      TextSettings.HorzAlign = Leading
+    end
+    object SBT_Info: TSpeedButton
+      Align = Right
+      Position.X = 335.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'infotoolbutton'
+      Text = 'SBT_Info'
+    end
+  end
+  object Layout_Top: TLayout
+    Align = Top
+    Position.Y = 40.000000000000000000
+    Size.Width = 383.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    object BT_DrawGraph1: TButton
+      Align = Left
+      Margins.Left = 10.000000000000000000
+      Position.X = 10.000000000000000000
+      Size.Width = 80.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = 'Draw1'
+      OnClick = BT_DrawGraph1Click
+    end
+    object BT_DrawGraph2: TButton
+      Align = Left
+      Margins.Left = 10.000000000000000000
+      Position.X = 100.000000000000000000
+      Size.Width = 80.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = 'Draw2'
+      OnClick = BT_DrawGraph2Click
+    end
+    object BT_Clear: TSpeedButton
+      Align = Right
+      Position.X = 335.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'trashtoolbutton'
+      Text = 'Clear'
+      OnClick = BT_ClearClick
+    end
+    object EditMax: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 3
+      KeyboardType = NumberPad
+      Position.X = 248.000000000000000000
+      Position.Y = 8.000000000000000000
+      Size.Width = 57.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      KillFocusByReturn = True
+    end
+    object Label1: TLabel
+      Position.X = 192.000000000000000000
+      Position.Y = 12.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 23.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.HorzAlign = Trailing
+      Text = 'Max'
+    end
+  end
+end

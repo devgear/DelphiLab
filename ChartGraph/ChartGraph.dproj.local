@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.830,=C:\Users\5sh\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.447,=C:\Users\5sh\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.790,=C:\Users\5sh\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.326,=C:\Users\5sh\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.645,=C:\Users\5sh\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.372,=C:\Users\5sh\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.486,=C:\Users\5sh\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.438,=C:\Users\5sh\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.210,=C:\Users\5sh\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.351,=C:\Users\5sh\Documents\Embarcadero\Studio\Projects\ServerContainerUnit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.531,D:\_XE_MyProject\5sh_DX10.1\ChartGraph\ChartGraph.dproj=C:\Users\5sh\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.152,=C:\Users\5sh\Documents\Embarcadero\Studio\Projects\ServerContainerUnit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.608,=C:\Users\5sh\Documents\Embarcadero\Studio\Projects\ServerContainerUnit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.781,=C:\Users\5sh\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.518,=C:\Users\5sh\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.719,=C:\Users\5sh\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.542,=C:\Users\5sh\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.667,=C:\Users\5sh\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.217,=C:\Users\5sh\Documents\Embarcadero\Studio\Projects\FormUnit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.249,D:\_XE_MyProject\5sh_DX10.1\ChartGraph\Unit1.fmx=D:\_XE_MyProject\5sh_DX10.1\ChartGraph\Fr3DView.fmx</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.325,D:\_XE_MyProject\5sh_DX10.1\ChartGraph\MUnit.fmx=C:\Users\5sh\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.890,=C:\Users\5sh\Documents\Embarcadero\Studio\Projects\FormUnit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.301,=D:\_XE_MyProject\5sh_DX10.1\ChartGraph\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.392,=D:\_XE_MyProject\5sh_DX10.1\ChartGraph\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.699,D:\_XE_MyProject\5sh_DX10.1\ChartGraph\DBModule.dfm=D:\_XE_MyProject\5sh_DX10.1\ChartGraph\Unit1.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.249,D:\_XE_MyProject\5sh_DX10.1\ChartGraph\Unit1.pas=D:\_XE_MyProject\5sh_DX10.1\ChartGraph\Fr3DView.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.029,=C:\Users\5sh\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.843,=C:\Users\5sh\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.360,=C:\Users\5sh\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.932,=C:\Users\5sh\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.742,=C:\Users\5sh\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.338,=C:\Users\5sh\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.439,=C:\Users\5sh\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.699,D:\_XE_MyProject\5sh_DX10.1\ChartGraph\DBModule.pas=D:\_XE_MyProject\5sh_DX10.1\ChartGraph\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.325,D:\_XE_MyProject\5sh_DX10.1\ChartGraph\MUnit.pas=C:\Users\5sh\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android="da4cf4ca"/>
+		<PBerlin iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>

@@ -1,0 +1,36 @@
+object Fr3DGraph: TFr3DGraph
+  Size.Width = 428.000000000000000000
+  Size.Height = 468.000000000000000000
+  Size.PlatformDefault = False
+  object MViewport3D: TViewport3D
+    Align = Client
+    Color = claBlack
+    Size.Width = 428.000000000000000000
+    Size.Height = 468.000000000000000000
+    Size.PlatformDefault = False
+    OnMouseDown = MViewport3DMouseDown
+    OnMouseMove = MViewport3DMouseMove
+    OnMouseUp = MViewport3DMouseUp
+    object Grid3D1: TGrid3D
+      Marks = 4.000000000000000000
+      Frequency = 1.000000000000000000
+      LineColor = x50505050
+      RotationAngle.X = 90.000000000000000000
+      Width = 16.000000000000000000
+      Height = 16.000000000000000000
+      Depth = 0.001000000047497451
+      HitTest = False
+      Quanternion = '(-0.707106947898865,0,0,-0.707106590270996)'
+    end
+  end
+  object ColorMaterialSource1: TColorMaterialSource
+    Color = claGold
+    Left = 80
+    Top = 400
+  end
+  object ColorMaterialSource2: TColorMaterialSource
+    Color = claDeepskyblue
+    Left = 168
+    Top = 400
+  end
+end
