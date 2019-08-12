@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.578,C:\Users\5sh\Documents\Embarcadero\Studio\Projects\Unit1.pas=D:\_XE_MyProject\5sh_XE7\LongTouch_Demo\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.578,C:\Users\5sh\Documents\Embarcadero\Studio\Projects\Unit1.fmx=D:\_XE_MyProject\5sh_XE7\LongTouch_Demo\Unit1.fmx</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.491,C:\Users\5sh\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\_XE_MyProject\5sh_XE7\LongTouch_Demo\LongTouchDemo.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.848,=C:\Users\5sh\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.840,=C:\Users\5sh\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.126,=C:\Users\5sh\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+  </Transactions>
+	<MobileDevice>526eccc2</MobileDevice>
+</BorlandProject>
