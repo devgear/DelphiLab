@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<MobileDevice>IM-A800S01111080278207-Android</MobileDevice>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.710,D:\temp\Bluetooth\Classic Bluetooth Basic app\BlueToothManager.pas=D:\temp\Bluetooth\Classic Bluetooth Basic app\Unit2.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.805,=D:\temp\Bluetooth\Classic Bluetooth Basic app\Unit2.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.230,D:\_XE_MyProject\5sh_XE8\_Arduino\BTACC_Source배포버전\PlatformAPI.pas=</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.042,D:\_XE_MyProject\5sh_XE8\_Arduino\BlueTooth_OnOff\ClBluetooth.dproj=D:\_XE_MyProject\5sh_XE8\_Arduino\BlueTooth_OnOff\BTAccArduino.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.608,=D:\_XE_MyProject\5sh_XE8\_Arduino\BlueTooth_OnOff\PlatformAPI.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.303,D:\temp\Bluetooth\Classic Bluetooth Basic app\BTConfig.pas=D:\temp\Bluetooth\Classic Bluetooth Basic app\BlueToothManager.pas</Transaction>
+  </Transactions>
+</BorlandProject>
